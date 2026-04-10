@@ -1,0 +1,13 @@
+Hi,
+
+Today I worked on the webhook workflow to receive responses from the /enrich API. I also partially developed the enrichment workflow—handling data extraction, dynamic payload generation based on cleaned fields, and passing it to the HTTP module.
+
+Additionally, I implemented the input sheet preparation flow, which inserts cleaned datasets with a "pending" status into a new Input Sheet.
+
+I had a few doubts but couldn’t connect with Kaji sir:
+
+For the webhook flow, how should we pass and use the sheet ID to track enriched vs non-enriched data sheets?
+How can we connect the Input Sheet workflow output with the enrichment workflow?
+A few minor doubts as well.
+
+I believe we’re close to completing this.
